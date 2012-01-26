@@ -1,0 +1,35 @@
+---
+abstract: 'perform multiple inheritance in Perl!'
+author:
+  - 'Toby Inkster <tobyink@cpan.org>'
+build_requires:
+  Data::Dumper: 0
+  ExtUtils::MakeMaker: 6.42
+  File::Basename: 0
+  File::Spec: 0
+  Test::More: 0.61
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 1.02'
+keywords: []
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+module_name: all::your::base::are::belong::to
+name: all-your-base-are-belong-to
+no_index:
+  directory:
+    - inc
+    - t
+    - xt
+requires:
+  parent: 0
+  perl: 5.6.0
+  version: 0.77
+resources:
+  bugtracker: http://rt.cpan.org/Dist/Display.html?Queue=all-your-base-are-belong-to
+  homepage: https://metacpan.org/release/all-your-base-are-belong-to
+  license: http://dev.perl.org/licenses/
+version: 85.083000
